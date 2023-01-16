@@ -4,11 +4,11 @@ using PokemonReviewApp.Models;
 
 namespace PokemonReviewApp.Repository
 {
-    public class OwnerRepsoitory : IOwnerRepository
+    public class OwnerRepository : IOwnerRepository
     {
         private readonly DataContext _context;
 
-        public OwnerRepsoitory(DataContext context)
+        public OwnerRepository(DataContext context)
         {
             _context = context;
         }
